@@ -1,7 +1,4 @@
-Perfect, thanks for sharing the actual image paths.
-I’ve updated your README draft so the placeholders now point to the real image URLs from your repo:
 
----
 
 # Retinopathy of Prematurity (ROP) Binary Classification with Deep Learning
 
@@ -78,10 +75,6 @@ The model will automatically save the best weights during training.
 * Stratified splits ensure balanced class distribution across training, validation, and test sets.
 * Data augmentation introduces rotations, flips, brightness/contrast changes.
 
-**Sample Images**
-![Augmentation Examples](https://github.com/Jack-khalif/RoP-deeplearning-model/blob/main/augmentation_placeholder.png)
-![Enhanced Examples](https://github.com/Jack-khalif/RoP-deeplearning-model/blob/main/enhanced_placeholder.png)
-
 ---
 
 ### Model Training
@@ -95,18 +88,7 @@ The model will automatically save the best weights during training.
 ### Evaluation
 
 * Metrics: Accuracy, sensitivity, specificity, precision, recall, F1-score, AUC.
-* Visualizations:
-
-**Confusion Matrix**
-![Confusion Matrix](https://github.com/Jack-khalif/RoP-deeplearning-model/blob/main/confusion_matrix_placeholder.png)
-
----
-
-### Interpretability
-
-Grad-CAM heatmaps visualize regions of interest guiding model predictions.
-
-*(Add your Grad-CAM outputs here once generated.)*
+* Visualizations: Confusion matrix, ROC curve, Grad-CAM heatmaps.
 
 ---
 
@@ -128,6 +110,26 @@ Grad-CAM heatmaps visualize regions of interest guiding model predictions.
 
 * Confusion matrix and ROC curves confirm strong model performance.
 * Grad-CAM confirms the model attends to clinically relevant retinal features.
+
+---
+
+## Results & Visuals
+
+### Data Augmentation Examples
+
+![Augmentation Examples](https://github.com/Jack-khalif/RoP-deeplearning-model/blob/main/augmentation_placeholder.png)
+
+### Enhanced Images
+
+![Enhanced Examples](https://github.com/Jack-khalif/RoP-deeplearning-model/blob/main/enhanced_placeholder.png)
+
+### Confusion Matrix
+
+![Confusion Matrix](https://github.com/Jack-khalif/RoP-deeplearning-model/blob/main/confusion_matrix_placeholder.png)
+
+### Grad-CAM Interpretability
+
+*(Add Grad-CAM heatmaps here once generated)*
 
 ---
 
@@ -172,6 +174,4 @@ This project is licensed under the MIT License. See the [LICENSE](LICENSE) file 
 * The dataset authors and contributors.
 * Kaggle for hosting the dataset.
 
----
 
-Would you like me to also add a **Results & Visuals** section at the bottom, where you can line up all figures (confusion matrix, ROC, Grad-CAM) in one place for quick viewing? That could make your README more appealing on GitHub.
