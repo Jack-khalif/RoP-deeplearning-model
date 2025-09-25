@@ -33,7 +33,7 @@ text
  Getting Started
 1. Clone the repository
 bash
-git clone https://github.com/yourusername/rop-binary-classification.git
+git clone https://github.com/jack-khalif/RoP-deeplearning-model.git
 cd rop-binary-classification
 2. Download the Dataset
 Add the Kaggle dataset to your environment or download it from here.
