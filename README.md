@@ -129,9 +129,45 @@ The model will automatically save the best weights during training.
 
 ### Grad-CAM Interpretability
 
-*(Add Grad-CAM heatmaps here once generated)*
+*(i'll Add Grad-CAM heatmaps here once generated)*
 
----
+
+## Saving and Using the Model
+
+The final trained model has been **saved and uploaded** in both the modern Keras format (`.keras`) and the legacy HDF5 format (`.h5`) for compatibility with different environments.
+
+```python
+# Save the final trained model explicitly in both formats
+
+# Save in the newer Keras v3 format
+rop_model.save("rop_final_model.keras")
+
+# Save in HDF5 format (backward compatibility)
+rop_model.save("rop_final_model.h5")
+
+print("Model saved in both .keras and .h5 formats!")
+```
+
+### Available Files
+
+* `rop_final_model.keras` → Recommended for TensorFlow/Keras v3 and above
+* `rop_final_model.h5` → Legacy format, compatible with older versions of Keras/TensorFlow
+* `rop_model_best.keras` → Best checkpointed model during training (based on validation AUC)
+
+### Loading the Model
+
+```python
+from tensorflow.keras.models import load_model
+
+# Load the recommended Keras v3 model
+model = load_model("rop_final_model.keras")
+
+# Or load the HDF5 model if needed
+model_h5 = load_model("rop_final_model.h5")
+```
+
+You can directly use these uploaded model files for inference on new retinal fundus images.
+
 
 ## Inference Example
 
