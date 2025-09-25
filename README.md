@@ -77,7 +77,7 @@ The model will automatically save the best weights during training.
 
 **Sample Images**
 *(Insert side-by-side original, augmented, and enhanced examples here)*
-`![Augmentation Examples](images/augmentation_placeholder.png)`
+`![Augmentation Examples](augmentation_placeholder.png)`
 
 ---
 
@@ -95,7 +95,7 @@ The model will automatically save the best weights during training.
 * Visualizations:
 
 **Confusion Matrix**
-`![Confusion Matrix](images/confusion_matrix_placeholder.png)`
+`![Confusion Matrix](confusion_matrix_placeholder.png)`
 
 
 ---
