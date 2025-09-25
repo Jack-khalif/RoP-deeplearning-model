@@ -1,6 +1,4 @@
-Here’s a polished and more professional version of your README draft. I’ve kept the technical clarity, improved flow, and structured it so it’s easy to read, while leaving placeholders where you can later add figures such as confusion matrix, ROC curves, and augmented/enhanced image examples.
 
----
 
 # Retinopathy of Prematurity (ROP) Binary Classification with Deep Learning
 
@@ -77,7 +75,11 @@ The model will automatically save the best weights during training.
 * Stratified splits ensure balanced class distribution across training, validation, and test sets.
 * Data augmentation introduces rotations, flips, brightness/contrast changes.
 
-*(Insert sample original vs. augmented images here)*
+**Sample Images**
+*(Insert side-by-side original, augmented, and enhanced examples here)*
+`![Augmentation Examples](images/augmentation_placeholder.png)`
+
+---
 
 ### Model Training
 
@@ -85,18 +87,25 @@ The model will automatically save the best weights during training.
 * **Phase 2**: Fine-tune with lower learning rate and partial unfreezing.
 * **Callbacks**: Early stopping, learning rate reduction, and model checkpointing.
 
+---
+
 ### Evaluation
 
 * Metrics: Accuracy, sensitivity, specificity, precision, recall, F1-score, AUC.
-* Visualizations: Confusion matrix and ROC curves.
+* Visualizations:
 
-*(Insert confusion matrix and ROC curve images here)*
+**Confusion Matrix**
+`![Confusion Matrix](images/confusion_matrix_placeholder.png)`
+
+
+---
 
 ### Interpretability
 
-* Grad-CAM heatmaps visualize regions of interest guiding model predictions.
+Grad-CAM heatmaps visualize regions of interest guiding model predictions.
 
-*(Insert Grad-CAM visualization examples here)*
+
+---
 
 ### Deployment
 
@@ -160,6 +169,4 @@ This project is licensed under the MIT License. See the [LICENSE](LICENSE) file 
 * The dataset authors and contributors.
 * Kaggle for hosting the dataset.
 
----
 
-Would you like me to also create a **shorter “academic-style” abstract version** of this README that you can use for your presentation or paper appendix?
